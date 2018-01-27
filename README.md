@@ -1,6 +1,8 @@
 # WifiDuckV2
-First see and support this guy! https://github.com/spacehuhn/wifi_ducky
 Rewrite of spacehuhn project.
+
+First see and support this guy! https://github.com/spacehuhn/wifi_ducky
+
 
 ## License
 This project is licensed under the MIT License - see the [license file](LICENSE) file for details
