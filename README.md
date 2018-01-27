@@ -14,6 +14,9 @@ The USB Rubber Ducky: https://hakshop.com/products/usb-rubber-ducky-deluxe
 Seytonic: http://youtube.com/seytonic
           https://github.com/seytonic
           
+Spacehuhn: https://github.com/spacehuhn/
+           https://github.com/spacehuhn/wifi_ducky
+          
 Arduino Ducky Script interpreter: https://github.com/Seytonic/Duckduino-microSD
 
 Cnlohrs ESP8266 USB Software Driver: https://github.com/cnlohr/espusb
