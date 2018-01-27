@@ -1,5 +1,5 @@
 # WifiDuckV2
-Rewrite of spacehuhn project.
+Rewrite of spacehuhn's project.
 
 First see and support this guy! https://github.com/spacehuhn/wifi_ducky
 
