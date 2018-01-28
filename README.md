@@ -11,10 +11,15 @@ OS detection!!
 # Syntax
 ## OS Detection
 OS - to dump os fingerprint (Better to write it as first line)
+
 WINDOWS - Start code below if it is Windows machine.
+
 MACOS - Start code...
+
 LINUX - Start code...
+
 OSEND - End the os code
+
 # Example
 ```Duckyscript
 OS
