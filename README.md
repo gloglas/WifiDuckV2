@@ -1,4 +1,4 @@
-# WifiDuckV2
+# [ WIP ] WifiDuckV2
 Rewrite of spacehuhn's project.
 
 ## What is better?
@@ -50,6 +50,19 @@ ASCII - write ASCII code
 REM write 'a'
 ASCII 97
 ```
+## Digital & Analog write
+DPIN - Same as digitalWrite(pin,value); in Arduino IDE.
+
+APIN - Same as analogWrite(pin,value); in Arduino IDE.
+
+MPIN - Same as pinMode(pin,mode); in Arduino IDE.
+
+```Duckyscript
+MPIN 2 OUTPUT
+MPIN 2 INPUT
+DPIN 2 HIGH
+APIN A0 200
+```
 
 ## MOUSE
 MOUSE X Y - Move mouse in both directions.
@@ -79,7 +92,17 @@ MOUSE_RELEASE_LEFT, RELEASE_LEFT - aliases for all 3 buttons.
 ## NUMPAD
 NUM_0-9 - Press numpad numbers.
 
-ASTERIX, MINUS, SLASH, SPACE, PRINTSCREEN
+ASTERIX, MINUS, SLASH - Press symbols
+
+```Duckyscript
+SLASH
+SLASH
+SPACE
+NUM_2
+NUM_0
+NUM_1
+NUM_8
+```
 
 ## Numbers for czech layout.
 CZ_0-9 - Press numbers.
