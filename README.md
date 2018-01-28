@@ -54,19 +54,6 @@ ASCII - write ASCII code
 REM write 'a'
 ASCII 97
 ```
-## Digital & Analog write
-DPIN - Same as digitalWrite(pin,value); in Arduino IDE.
-
-APIN - Same as analogWrite(pin,value); in Arduino IDE.
-
-MPIN - Same as pinMode(pin,mode); in Arduino IDE.
-
-```Duckyscript
-MPIN 2 OUTPUT
-MPIN 2 INPUT
-DPIN 2 HIGH
-APIN A0 200
-```
 
 ## MOUSE
 MOUSE X Y - Move mouse in both directions.
