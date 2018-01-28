@@ -9,7 +9,7 @@ You can write ASCII code in your scripts!
 OS detection and more!
 
 # Instalation
-See this project! https://github.com/spacehuhn/wifi_ducky
+First see this project! https://github.com/spacehuhn/wifi_ducky#installation
 
 # Syntax
 
