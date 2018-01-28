@@ -10,6 +10,7 @@ OS detection and more!
 
 # Instalation
 First see this project! https://github.com/spacehuhn/wifi_ducky#installation
+
 You will need this library: https://github.com/keyboardio/FingerprintUSBHost
 
 # Syntax
