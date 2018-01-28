@@ -89,6 +89,15 @@ RELEASE - Release MOUSE1
 
 MOUSE_RELEASE_LEFT, RELEASE_LEFT - aliases for all 3 buttons.
 
+```Duckyscript
+MOUSE 2000 -400
+CLICK
+SCROLL 20
+PRESS
+MOVE -100 2500
+RELEASE_LEFT
+CLICK_RIGHT
+```
 ## NUMPAD
 NUM_0-9 - Press numpad numbers.
 
@@ -104,7 +113,7 @@ NUM_1
 NUM_8
 ```
 
-## Numbers for czech layout.
+## Numbers for Czech layout.
 CZ_0-9 - Press numbers.
 
 ## License
