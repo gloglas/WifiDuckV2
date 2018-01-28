@@ -1,6 +1,8 @@
 # [ WIP ] WifiDuckV2
 Rewrite of spacehuhn's project.
 
+I added some features I missed.
+
 ## What is better?
 Mouse control
 
