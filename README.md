@@ -30,13 +30,17 @@ OSEND - End the os code
 ```Duckyscript
 OS
 STRING I do not care now.
+
 WINDOWS
 STRING I am Windows machine.
 OSEND
+
 LINUX
 STRING I am Linux/Android/ChromeOS machine.
 OSEND
+
 STRING I do it anyway.
+
 MACOS
 STRING I am iOS machine.
 OSEND
