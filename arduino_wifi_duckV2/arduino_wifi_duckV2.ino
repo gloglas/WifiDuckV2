@@ -58,21 +58,6 @@ if(dontwrite == 0){
   schunk = _line.substring(index+1);
     Mouse.move(_line.substring(firstSpace + 1).toInt(), schunk.toInt());
   }
-  else if(_line.substring(0,firstSpace) == "DPIN"){
-  int index = _line.indexOf(" ",firstSpace+1);
-  schunk = _line.substring(index+1);
-   digitalWrite(_line.substring(firstSpace + 1), schunk);
-  }
-  else if(_line.substring(0,firstSpace) == "MPIN"){
-  int index = _line.indexOf(" ",firstSpace+1);
-  schunk = _line.substring(index+1);
-   pinMode(_line.substring(firstSpace + 1), schunk);
-  }
-  else if(_line.substring(0,firstSpace) == "APIN"){
-  int index = _line.indexOf(" ",firstSpace+1);
-  schunk = _line.substring(index+1);
-   analogWrite(_line.substring(firstSpace + 1), schunk.toInt());
-  }
   else if(_line.substring(0,firstSpace) == "DEFAULTDELAY") defaultDelay = _line.substring(firstSpace + 1).toInt();
   else if(_line.substring(0,firstSpace) == "REM"){} //nothing :/
   else if(_line.substring(0,firstSpace) == "REPLAY") {
