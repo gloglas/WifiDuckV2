@@ -9,18 +9,24 @@ You can write ASCII code in your scripts!
 OS detection!!
 
 # Syntax
+## ASCII
+ASCII - write ASCII code
+```Duckyscript
+REM write 'a'
+ASCII 97
+```
 ## OS Detection
 OS - to dump os fingerprint (Better to write it as first line)
 
 WINDOWS - Start code below if it is Windows machine.
 
-MACOS - Start code...
+MACOS - Start code below if it is iOS machine.
 
-LINUX - Start code...
+LINUX - Start code below if it is Linux machine.
 
 OSEND - End the os code
 
-# Example
+### Example
 ```Duckyscript
 OS
 STRING I do not care now.
