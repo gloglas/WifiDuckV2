@@ -1,22 +1,20 @@
 # WifiDuckV2
 Rewrite of spacehuhn's project.
 
-First see and support this guy! https://github.com/spacehuhn/wifi_ducky
-
 ## What is better?
 Mouse control
+
 You can write ASCII code in your scripts!
-OS detection!!
+
+OS detection and more!
+
+# Instalation
+See this project! https://github.com/spacehuhn/wifi_ducky
 
 # Syntax
-## ASCII
-ASCII - write ASCII code
-```Duckyscript
-REM write 'a'
-ASCII 97
-```
+
 ## OS Detection
-OS - to dump os fingerprint (Better to write it as first line)
+OS - Dump fingerprint (Better to write it as first line)
 
 WINDOWS - Start code below if it is Windows machine.
 
@@ -45,6 +43,46 @@ MACOS
 STRING I am iOS machine.
 OSEND
 ```
+
+## ASCII
+ASCII - write ASCII code
+```Duckyscript
+REM write 'a'
+ASCII 97
+```
+
+## MOUSE
+MOUSE X Y - Move mouse in both directions.
+
+MOUSEX X - Move mouse only in X-axis.
+
+MOUSEY Y - Move mouse only in Y-axis.
+
+SCROLL Y - Scroll.
+
+CLICK - Press MOUSE1.
+
+CLICK_RIGHT - Press MOUSE2.
+
+CLICK_MIDDLE - Press MOUSE3.
+
+MOUSE_CLICK_LEFT, CLICK_LEFT - aliases for all 3 buttons.
+
+PRESS - Hold MOUSE1.
+
+MOUSE_PRESS_LEFT, PRESS_LEFT - aliases for all 3 buttons.
+
+RELEASE - Release MOUSE1
+
+MOUSE_RELEASE_LEFT, RELEASE_LEFT - aliases for all 3 buttons.
+
+## NUMPAD
+NUM_0-9 - Press numpad numbers.
+
+ASTERIX, MINUS, SLASH, SPACE, PRINTSCREEN
+
+## Numbers for czech layout.
+CZ_0-9 - Press numbers.
 
 ## License
 This project is licensed under the MIT License - see the [license file](LICENSE) file for details
