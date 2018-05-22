@@ -22,23 +22,8 @@ int linOS = 0;
 void Line(String _line)
 {
   int firstSpace = _line.indexOf(" ");
-  /////
-  if(_line.equals("OS")){
-    winOS=0;
-    macOS=0;
-    linOS=0;
-    for(int i=0; i < 5; i++){
-      FingerprintUSBHost.guessHostOS(os); //MacOS,Linux,Windows
-      if(os.equals("Windows")) winOS++;
-      else if(os.equals("MacOS")) macOS++;
-      else linOS++;
-    }
-    if(winOS > linOS && winOS > macOS) os="Windows";
-    else if(macOS > linOS && macOS > winOS) os="MacOS";
-    else if(linOS > winOS && linOS > macOS) os="Linux";
-    else if(macOS == winOS) os="MacOS";
-    
-  }
+  
+  if(_line.equals("OS")) FingerprintUSBHost.guessHostOS(os);
   if(_line.equals("WINDOWS") && os != "Windows" ) dontwrite = 1;
   if(_line.equals("LINUX") && os != "Linux" ) dontwrite = 1;
   if(_line.equals("MACOS") && os != "MacOS" ) dontwrite = 1;
